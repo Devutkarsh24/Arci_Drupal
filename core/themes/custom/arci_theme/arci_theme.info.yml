@@ -1,0 +1,14 @@
+name: 'Arci Theme'
+type: theme
+description: 'Theme based on HTML layout'
+core_version_requirement: ^11
+base theme: 'olivero'
+
+libraries:
+  - newtheme/global-styling
+
+regions:
+  header: 'Header'
+  nav: 'Navigation'
+  content: 'Content'
+  footer: 'Footer'
